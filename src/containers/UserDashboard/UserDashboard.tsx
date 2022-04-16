@@ -18,6 +18,7 @@ const UserDashboard = () => {
           imgSrc="https://cdn.pixabay.com/photo/2017/03/26/01/58/icon-2174737_1280.png"
           heading="Private Workplace"
           para="This section containes features such as Track your tickets, review your progress, whiteboard for ideas, personalised event tracker, and keeping your personalized notes or todos."
+          onClick={() => navigate("/private-workplace")}
         />
         <Cards
           imgSrc="https://cdn.pixabay.com/photo/2016/03/12/19/34/city-1252643_1280.png"

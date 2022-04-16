@@ -179,9 +179,9 @@ class PublicWorkplace extends React.Component {
       notes_list: containsOnlyOneElement
         ? [{ id, ...note }]
         : [
-            { id, ...note },
-            ...this.state.notes_list.filter((item) => item.id !== id),
-          ],
+          { id, ...note },
+          ...this.state.notes_list.filter((item) => item.id !== id),
+        ],
       edited_note: {
         title: "",
         input: "",
@@ -210,12 +210,12 @@ class PublicWorkplace extends React.Component {
       },
     };
     return (
-      <div className="public" style={{display: "flex"}}>
+      <div className="public" style={{ display: "flex" }}>
         <PublicSidebar />
 
         <div className="public-right">
           <div className="header">
-            <img src="photos/homebox.png" alt="homebox-logo" style={{width: "50px"}} />
+            <img src="photos/homebox.png" alt="homebox-logo" style={{ width: "50px" }} />
             <h3>Homebox</h3>
             <input
               className="search"
